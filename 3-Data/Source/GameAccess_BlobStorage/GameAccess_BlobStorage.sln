@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAccess_BlobStorage", "GameAccess_BlobStorage\GameAccess_BlobStorage.csproj", "{CEDCEB6E-783E-443E-9D71-E24B039594B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAccess_BlobStorage.API", "GameAccess_BlobStorage.API\GameAccess_BlobStorage.API.csproj", "{AD7B0678-3D2F-4CCE-8C03-DC2C9685875E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDCEB6E-783E-443E-9D71-E24B039594B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDCEB6E-783E-443E-9D71-E24B039594B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDCEB6E-783E-443E-9D71-E24B039594B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDCEB6E-783E-443E-9D71-E24B039594B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7B0678-3D2F-4CCE-8C03-DC2C9685875E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7B0678-3D2F-4CCE-8C03-DC2C9685875E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7B0678-3D2F-4CCE-8C03-DC2C9685875E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7B0678-3D2F-4CCE-8C03-DC2C9685875E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
