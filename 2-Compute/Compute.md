@@ -160,7 +160,9 @@ Don't forget to **stop the machine once you're done with it**. You do it at the 
 
 You've seen so far how to create a single vitrual server. What if you wanted more of them? You could extract a generalized image and clone it manually, or you can leave this to Azure and use a scaleset.
 
-Instead of creating 30 clones of the server manually, we will use Azure Resource Manager and simple PowerShell script to provision up to 100 of instances of the OpenTTD server.
+Instead of creating 30 clones of the server manually, we will use Azure Resource Manager and simple PowerShell script to provision up to 100 of instances of the OpenTTD server. This is the architecture:
+
+![](Images/vmss-architecture.png)
 
 1. Download **ottd-vmss.json** and **install-server.ps1** from **Scripts** folder in this repo.
 2. Start **Visual Studio Code** and click `File > Open Folder...` (or use Visual Studio 2017 or your text editor of choice).
