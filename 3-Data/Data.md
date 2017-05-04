@@ -1,10 +1,10 @@
 # Azure Gaming Workshop - Data
 
-...
+Persisting data is fundamental part of every software application, games included. Your game doesn't necessarily have to provide multiplayer mode - you can give players the possibility to migrate between devices and have their game state always in sync, or distribute new content.
 
 ## Introduction
 
-There are plenty of ways you can work with data in Azure - SQL Database, Storage Tables, HDInsight etc. In this part we will focus on two of them and simulate two ways of persisting game data in the cloud:
+There are plenty of ways you can work with data in Azure - SQL Database, Storage Tables, HDInsight, CDN etc. In this part we will focus on two of them and simulate two ways of persisting game data in the cloud:
 
 * saving binary blobs to Azure Storage,
 * saving JSON data to Azure DocumentDB.
@@ -204,3 +204,5 @@ Players' data is securely persisted in the cloud now. You can download and copy 
 ## DocumentDB
 
 Azure DocumentDB is a highly scalable, globally-distributed NoSQL database service. It works with JSON documents and offers SQL-like query language.
+
+Because our time in this workshop is limited, we will not go through it here. If you're interested, try the [NoSQL tutorial](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-get-started) on Azure website.

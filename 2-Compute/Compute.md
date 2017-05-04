@@ -1,6 +1,6 @@
 # Azure Gaming Workshop - Compute
 
-...
+Hosting your own servers is one of the basic uses for the cloud for gaming. It's also the simpliest one and easiest to understand - you choose the number of cores, amount of RAM, type of storage and go.
 
 ## Introduction
 
